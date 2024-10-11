@@ -1,0 +1,15 @@
+body {
+  padding-top: 56px; /* Offset for fixed navbar */
+}
+
+#about, #projects, #contact {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-top: 50px;
+}

@@ -1,0 +1,41 @@
+/* Button hover effect */
+button {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background-color: #1A3636; /* Darker blue on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 3rem;
+    }
+  
+    .subheading {
+      font-size: 1.25rem;
+    }
+  
+    button {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .neon-button {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    background-color: #0e76a8; /* Change to your desired color */
+    text-shadow: 0 0 5px #0e76a8, 0 0 10px #0e76a8, 0 0 15px #0e76a8;
+    transition: all 0.3s ease;
+  }
+  
+  .neon-button:hover {
+    box-shadow: 0 0 20px #0e76a8, 0 0 30px #0e76a8, 0 0 40px #0e76a8;
+    text-shadow: 0 0 10px #0e76a8, 0 0 20px #0e76a8, 0 0 30px #0e76a8;
+  }
+  

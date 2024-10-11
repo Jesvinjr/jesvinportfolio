@@ -1,0 +1,124 @@
+/* Custom styles for PortfolioNavbar */
+.navbar-animate {
+  background-color: #1A3636; /* Slightly transparent navbar */
+}
+
+.brand-animate {
+ /* Unique font for brand */
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  -webkit-text-fill-color: #ffffff;
+}
+
+
+.brand-animate {
+  font-family: 'Poppins', sans-serif; /* Change the font to Poppins or any other preferred font */
+  font-size: 1.5rem; /* Adjust the font size */
+  font-weight: bold; /* Make the font bold */
+  color: #007bff; /* Change the text color to a stylish blue */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for effect */
+  animation: fadeIn 2s ease-in-out; /* Add a fade-in animation */
+}
+
+
+/* .brand-animate:hover {
+  transform: scale(1.1); /* Scale up brand name slightly on hover 
+} */
+
+.toggle-animate {
+  border: none;
+}
+
+.toggle-animate:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-link-animate {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  color: white !important;
+  position: relative;
+  display: flex;
+  align-items: center; /* Align icon with text */
+  gap: 8px; /* Spacing between icon and text */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link-animate::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff; /* Underline color */
+  transition: width 0.3s ease;
+}
+
+.nav-link-animate:hover::after {
+  width: 100%; /* Underline on hover */
+}
+
+.nav-link-animate:hover {
+  color: #000000 !important; /* Change link color on hover */
+  transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.icon {
+  font-size: 1.2rem; /* Set size of the icon */
+}
+
+.nav-link-animate:hover .icon {
+  transform: rotate(10deg); /* Rotate icon slightly on hover */
+  transition: transform 0.3s ease;
+}
+
+/* Animation for brand and nav elements */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.brand-animate {
+  animation: fadeIn 1s ease-out;
+}
+
+.nav-link-animate {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Add hover effects to icons */
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: rotate(360deg); /* Rotate icon on hover */
+  transition: transform 0.6s ease;
+}
+
+@media (max-width: 992px) {
+  .navbar-animate {
+      background-color: #1A3636; /* Darker background on mobile */
+  }
+
+  .nav-link-animate {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+}
+.profile-pic{
+  margin-left: 20px;
+}
+
+
+
+
