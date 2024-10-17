@@ -23,7 +23,7 @@ function PortfolioNavbar() {
               marginRight: '20px',
             }}
           />
-          PORTFOLIO
+          JESVIN L JOSE
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-animate" />
@@ -42,11 +42,11 @@ function PortfolioNavbar() {
               Skills
             </Nav.Link>
 
-
             <Nav.Link href="#projects" className="nav-link-animate">
-              <FaProjectDiagram className="icon" /> {/* Add Projects Icon */}
+              <FaProjectDiagram className="icon" />
               Projects
             </Nav.Link>
+
             <Nav.Link href="#contact" className="nav-link-animate">
               <FaEnvelope className="icon" /> {/* Add Contact Icon */}
               Contact

@@ -7,16 +7,16 @@ import logo3 from "../projectphotos/studentidcard.png";
 const ProjectSection = () => {
   const projects = [
     {
-      title: "USERDATA",
+      title: "USERDATA APP",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus cumque magnam consequatur illum blanditiis nihil.",
+        "A React.js application that fetches and displays user data from a fake API.",
       logo: logo,
       color: "#677D6A",
     },
     {
       title: "DATA FROM API USING AJAX",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus cumque magnam consequatur illum blanditiis nihil.",
+        "",
       logo: logo2,
       color: "#677D6A",
     },
@@ -24,14 +24,14 @@ const ProjectSection = () => {
     {
       title: "USERDATA",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus cumque magnam consequatur illum blanditiis nihil.",
+        "",
       logo: logo3,
       color: "#677D6A",
     },
     {
       title: "DATA FROM API USING AJAX",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus cumque magnam consequatur illum blanditiis nihil.",
+        "",
       logo: logo2,
       color: "#677D6A",
     },
@@ -39,7 +39,7 @@ const ProjectSection = () => {
 
   return (
     <div>
-      <div className="project-section"  id="projects ">
+      <div className="project-section"  id="projects">
         {projects.map((project, index) => (
           <div className="card" key={index}>
             <div className="circle" style={{ "--clr": project.color }}>

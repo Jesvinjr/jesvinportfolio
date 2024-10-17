@@ -18,7 +18,7 @@ const Footer = () => {
                 <i className="fas fa-code me-2"></i>Web Development |
               </p>
               <p className="mx-2">
-                <i className="fab fa-react me-2"></i>React.js Developer |
+                <i className="fab fa-react me-2"></i>React.js Development |
               </p>
             </div>
           </div>
