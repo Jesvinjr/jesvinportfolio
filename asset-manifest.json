@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-jesvin/static/css/main.57288fc9.css",
+    "main.js": "/portfolio-jesvin/static/js/main.c883df8f.js",
+    "static/media/jesvin.jpg": "/portfolio-jesvin/static/media/jesvin.e2dc877177b96973a278.jpg",
+    "static/media/fa-solid-900.ttf": "/portfolio-jesvin/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/userdata.png": "/portfolio-jesvin/static/media/userdata.0f16d6a2ae101615806a.png",
+    "static/media/fa-brands-400.ttf": "/portfolio-jesvin/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio-jesvin/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio-jesvin/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/ajax.png": "/portfolio-jesvin/static/media/ajax.e83bcbe98cc0835ab4a7.png",
+    "static/media/studentidcard.png": "/portfolio-jesvin/static/media/studentidcard.4d2f3057709ed41f1433.png",
+    "static/media/fa-regular-400.ttf": "/portfolio-jesvin/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/portfolio-jesvin/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/backgroundmy.jpg": "/portfolio-jesvin/static/media/backgroundmy.b2b21c0d008169a82217.jpg",
+    "static/media/fa-v4compatibility.ttf": "/portfolio-jesvin/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio-jesvin/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/portfolio-jesvin/index.html",
+    "main.57288fc9.css.map": "/portfolio-jesvin/static/css/main.57288fc9.css.map",
+    "main.c883df8f.js.map": "/portfolio-jesvin/static/js/main.c883df8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57288fc9.css",
+    "static/js/main.c883df8f.js"
+  ]
+}
